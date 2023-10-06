@@ -1,0 +1,32 @@
+.home{
+   
+    max-height: 1000px;
+    color: red (255, 255, 255);
+    
+}
+.blink_me{
+    animation:blinker 2s linear infinite;
+}
+@keyframes blinker{
+    50%{
+        opacity:0;
+    }
+}
+.tr{
+    background-color: rgb(0, 0, 0);
+}
+.th{
+    color: rgb(224, 220, 255);
+}
+.form-group{
+    color:rgb(129, 30, 30);
+}
+.forms{
+    color:white;
+}
+.card col-md-6 offset-md-3 offset-md-3{
+    color:white;
+}
+.button{
+   align-items: center;
+}

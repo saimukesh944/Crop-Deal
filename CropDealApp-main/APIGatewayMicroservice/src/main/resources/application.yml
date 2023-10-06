@@ -1,0 +1,53 @@
+server:
+  port: 8002
+  
+spring:
+  application:
+    name: API-gateway
+    
+    
+  cloud:
+    gateway:
+      routes:
+      - id: AdminMicroservice
+        uri: http://localhost:8094
+        predicates:
+        - Path=/apiAdmin/**
+        
+        
+      - id: CartMicroservice
+        uri: http://localhost:8054
+        predicates:
+        - Path=/apiCart/**
+        
+      - id: CropMicroservice
+        uri: http://localhost:8099
+        predicates:
+        - Path=/apiCrop/**
+       
+      - id: FarmerMicroservice
+        uri: http://localhost:8096
+        predicates:
+        - Path=/apiFarmer/**
+        
+        
+        
+      - id: ManagementMicroservice
+        uri: http://localhost:9095
+        predicates:
+        - Path=/api/auth/** 
+        
+      - id: PaymentMicroservice
+        uri: http://localhost:8083
+        predicates:
+        - Path=/payment/**
+
+
+
+globalcors:
+ corsConfigurations:
+ '[/**]':
+ allowedOrigins: "http://localhost:3000/"
+ allowedMethods: "*"
+ allowedHeaders: "*"
+ allow-credentials: true

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/APIGatewayMicroservice/APIGatewayMicroservice.iml" filepath="$PROJECT_DIR$/APIGatewayMicroservice/APIGatewayMicroservice.iml" />
+      <module fileurl="file://$PROJECT_DIR$/AdminMicroservice/AdminMicroservice.iml" filepath="$PROJECT_DIR$/AdminMicroservice/AdminMicroservice.iml" />
+      <module fileurl="file://$PROJECT_DIR$/CartsMicroservice/CartsMicroservice.iml" filepath="$PROJECT_DIR$/CartsMicroservice/CartsMicroservice.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/CropDealApp-main.iml" filepath="$PROJECT_DIR$/.idea/CropDealApp-main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/CropDetailsMicroservice/CropDetailsMicroservice.iml" filepath="$PROJECT_DIR$/CropDetailsMicroservice/CropDetailsMicroservice.iml" />
+      <module fileurl="file://$PROJECT_DIR$/EurekaServerMicroservice/EurekaServerMicroservice.iml" filepath="$PROJECT_DIR$/EurekaServerMicroservice/EurekaServerMicroservice.iml" />
+      <module fileurl="file://$PROJECT_DIR$/FarmerMicroservice/FarmerMicroservice.iml" filepath="$PROJECT_DIR$/FarmerMicroservice/FarmerMicroservice.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ManagementMicroservice/ManagementMicroservice.iml" filepath="$PROJECT_DIR$/ManagementMicroservice/ManagementMicroservice.iml" />
+      <module fileurl="file://$PROJECT_DIR$/PaymentMicroservice/PaymentMicroservice.iml" filepath="$PROJECT_DIR$/PaymentMicroservice/PaymentMicroservice.iml" />
+    </modules>
+  </component>
+</project>

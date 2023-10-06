@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="APIGatewayMicroservice" />
+        <module name="CropDetailsMicroservice" />
+        <module name="CartsMicroservice" />
+        <module name="FarmerMicroservice" />
+        <module name="EurekaServerMicroservice" />
+        <module name="ManagementMicroservice" />
+        <module name="PaymentMicroservice" />
+        <module name="AdminMicroservice" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="AdminMicroservice" target="11" />
+      <module name="APIGatewayMicroservice" target="11" />
+      <module name="CartsMicroservice" target="11" />
+      <module name="CropDetailsMicroservice" target="11" />
+      <module name="EurekaServerMicroservice" target="11" />
+      <module name="FarmerMicroservice" target="11" />
+      <module name="ManagementMicroservice" target="11" />
+      <module name="PaymentMicroservice" target="11" />
+    </bytecodeTargetLevel>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="APIGatewayMicroservice" options="-parameters" />
+      <module name="AdminMicroservice" options="-parameters" />
+      <module name="CartsMicroservice" options="-parameters" />
+      <module name="CropDetailsMicroservice" options="-parameters" />
+      <module name="EurekaServerMicroservice" options="-parameters" />
+      <module name="FarmerMicroservice" options="-parameters" />
+      <module name="ManagementMicroservice" options="-parameters" />
+      <module name="PaymentMicroservice" options="-parameters" />
+    </option>
+  </component>
+</project>
